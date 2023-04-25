@@ -1,0 +1,79 @@
+/* ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(241, 244, 249);
+    color: black;
+}
+
+/* li a:hover{
+    background-color: aqua;    
+} */
+
+.background-jumbotron {
+    background-image: url(img/1.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: inset 0 0 0 2000px rgba(36, 140, 149, 0.5);
+}
+
+#tiles {
+    list-style-type: none;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .btn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #0c746a;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+
+  #service {
+
+    background-color: #0c746a;
+    color: white;
+  
+
+  }
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
