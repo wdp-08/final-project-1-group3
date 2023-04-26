@@ -21,3 +21,6 @@ function prevCard() {
         });
     }
 }
+
+/* icon search */
+feather.replace()
