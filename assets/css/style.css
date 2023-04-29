@@ -12,10 +12,6 @@ ul.topnav li a.active {background-color: #04AA6D;} */
   text-decoration: none;
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-}
 .box {
   min-height: 150px;
   width: 100%;
@@ -284,11 +280,10 @@ th, td {
 @media screen and (max-width: 480px) {
   .container {
     width: 100%;
-    flex-direction: column;
-    align-items: center;
+    
   }
   img {
-    width: 100%;
+    width: auto;
   }
   body {
     font-size: 12px;
