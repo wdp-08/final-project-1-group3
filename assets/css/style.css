@@ -283,12 +283,12 @@ th, td {
 
 @media screen and (max-width: 480px) {
   .container {
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
   img {
-    max-width: 90%;
+    width: 100%;
   }
   body {
     font-size: 12px;
