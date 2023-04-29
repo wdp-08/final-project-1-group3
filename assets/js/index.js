@@ -6,21 +6,31 @@ const cardCount = cards.length;
 
 function nextCard() {
     if (position < cardCount - 4) {
-        position++;
-        cards.forEach(card => {
-            card.style.transform = `translateX(-${position * 270}px)`;
-        });
+      position++;
+      cards.forEach(card => {
+        card.style.transform = `translateX(-${position * 270}px)`;
+      });
+    } else {
+      position = 0;
+      cards.forEach(card => {
+        card.style.transform = `translateX(0)`;
+      });
     }
-}
-
-function prevCard() {
+  }
+  
+  function prevCard() {
     if (position > 0) {
-        position--;
-        cards.forEach(card => {
-            card.style.transform = `translateX(-${position * 270}px)`;
-        });
+      position--;
+      cards.forEach(card => {
+        card.style.transform = `translateX(-${position * 270}px)`;
+      });
+    } else {
+      position = cardCount - 4;
+      cards.forEach(card => {
+        card.style.transform = `translateX(-${position * 270}px)`;
+      });
     }
-}
-
+  }
+  
 /* icon search */
 feather.replace()
