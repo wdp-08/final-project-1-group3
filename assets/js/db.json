@@ -1,0 +1,776 @@
+{
+	"provinsi":
+	{
+		"11":
+		{
+			"nama": "Aceh",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Masjid Raya Baiturrahman",
+					"gambar" : "1.jpg",
+                    "harga" : "1.700.000"
+				},
+				{
+					"nama" : "Danau Laut Tawar",
+					"gambar" : "2.jpg",
+                    "harga" : "2.700.000"
+				},
+				{
+					"nama" : "Benteng Indra Patra",
+					"gambar" : "3.jpg",
+                    "harga" : "13.700.000"
+				},
+				{
+					"nama" : "Taman Laut Sabang",
+					"gambar" : "",
+                    "harga" : "4.906.000"
+				},
+				{
+					"nama" : "Taman Buru Lingge Isaq",
+					"gambar" : "",
+                    "harga" : "4.967.000"
+				},
+				{
+					"nama" : "Hutan Wisata Gunung Leuser",
+					"gambar" : "",
+                    "harga" : "5.780.000"
+				},
+				{
+					"nama" : "Danau Aneuk Laot",
+					"gambar" : "",
+                    "harga" : "1.700.000"
+				},
+				{
+					"nama" : "Taman Putroe Phang",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Kuburan Kerkhoff Peucut",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pantai Iboh",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Situs Kerajaan Pasai",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+		"12":
+		{
+			"nama": "Sumatera Utara",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Danau Toba",
+					"gambar" : "1.jpg",
+                    "harga" : "2.000.000"
+
+				},
+				{
+					"nama" : "Nias",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Sibolangit",
+					"gambar" : "3.jpg",
+                    "harga" : "1.500.000"
+				},
+				{
+					"nama" : "Pulau Samosir",
+					"gambar" : "",
+                    "harga" : "1.955.000"
+				},
+				{
+					"nama" : "Brastagi",
+					"gambar" : "",
+                    "harga" : "1.090.000"
+				}
+			]},
+		"13":
+		{
+			"nama": "Sumatera Barat",
+			"objek_pariwisata":
+			[ 
+				{
+					"nama" : "Danau Singkarak",
+					"gambar" : "1.jpg",
+                    "harga" : "3.070.000"
+				},
+				{
+					"nama" : "Ngarai Sianok",
+					"gambar" : "2.jpg",
+                    "harga" : "2.550.000"
+				},
+				{
+					"nama" : "Jam Gadang",
+					"gambar" : "3.jpg",
+                    "harga" : "3.800.000"
+				},
+				 {
+					"nama" : "Danau Talang",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Danau Diatas dan Danau Dibawah",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Benteng Fort de Kock",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pantai Air Manis",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+		 "14":
+		{
+			"nama": "Riau",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Candi Muara Takus",
+					"gambar" : "1.jpg",
+                    "harga" : "2.000.000"
+				},
+				{
+					"nama" : "Masjid Raya Pekanbaru",
+					"gambar" : "2.jpg",
+                    "harga" : "3.000.000"
+				},
+				{
+					"nama" : "istana Siak",
+					"gambar" : "3.jpg",
+                    "harga" : "4.000.000"
+				},
+				{
+					"nama" : "pulau jemur",
+					"gambar" : "",
+                    "harga" : "5.000.000"
+				},
+				{
+					"nama" : "taman nasional bukit tiga puluh",
+					"gambar" : "",
+                    "harga" : "6.000.000"
+				},
+				{
+					"nama" : "benteng tujuh lapis",
+					"gambar" : "",
+                    "harga" : "7.000.000"
+				}
+			]},
+
+		 "15":
+		{
+			"nama": "Jambi",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Candi Muaro Jambi",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Danau Kerinci",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Taman Mini Jambi & Taman Rimba",
+					"gambar" : "3.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Tanggo Rajo",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Hutan Kota Mayang Mangurai",
+					"gambar" : "",
+                    "harga" : "1.500.000"
+				},
+				{
+					"nama" : "Danau Sipin",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Danau Teluk",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+			
+		 "16":
+		{
+			"nama": "Sumatera Selatan",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Sungai Manna",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Air Terjun Bedegung",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Candi Bumi Ayu",
+					"gambar" : "3.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Air Terjun Temam",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Air Terjun Bidadari",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+			
+		 "17":
+		{
+			"nama": "Bengkulu",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Benteng Marlborough",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Danau Tujuh Warna",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "danau Tes",
+					"gambar" : "3.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Elephant Training Center (ETC) di Seblat",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Rumah Pengasingan Bung Karno",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Air Terjun Kepala Curup",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "gunung kaba",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Taman Wisata Konak",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+
+		"18":
+		{
+			"nama": "Lampung",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Danau Ranau",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Teluk Kiluan",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Way Kambas",
+					"gambar" : "3.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "TN. Bukit Barisan",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+
+		"19":
+		{
+			"nama": "Kepulauan Bangka Belitung",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Pantai Parai Tenggiri",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pantai Matras",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pulau Lengkuas",
+					"gambar" : "3.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pantai Tanjung Pesona",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pesanggrahan Bung Karno Bukit Menumbing",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Wisma Ranggam Mentok",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Museum Buding",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Situs Raja Balok di Desa Balok Kecamatan Dendang",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+			
+		"21":
+		{
+			"nama": "Kepulauan Riau",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Pantai Melur",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pantai Lagoi",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pantai Trikora",
+					"gambar" : "3.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pulau Abang dan Pantai Nongsa di kota Batam",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pantai Pelawan di Kabupaten Karimun",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pantai Tanjung Berakit dan Bintan Leisure Park di kabupaten Bintan",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Kabupaten Natuna",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+
+		"31":
+		{
+			"nama": "Daerah Khusus Ibukota Jakarta",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Taman Mini Indonesia Indah",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Taman Impian Jaya Ancol",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Museum Fatahillah",
+					"gambar" : "3.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pulau Seribu",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Kebun Binatang Ragunan",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Museum Gajah",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+
+		"32":
+		{
+			"nama": "Jawa Barat",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Waduk Cirata",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Kawah Putih",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Observatorium Bosscha",
+					"gambar" : "3.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Puncak-Kabupaten Bogor",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Kebun Raya Cibodas",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Taman Bunga Nusantara",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Taman Wisata Gunung Gede Pangrango",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Keraton Kasepuhan Cirebon",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]
+        },
+
+		"33":
+		{
+			"nama": "Jawa Tengah",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Museum Jawa Tengah Ranggawarsita",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Candi Mendut",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Candi Borobudur",
+					"gambar" : "3.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Museum Rekor Indonesia (MURI)",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Maerokoco (Taman Mini Jawa Tengah)",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+			
+		"34":
+		{
+			"nama": "Daerah Istimewa Yogyakarta",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Kebun Binatang Gembira Loka",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Istana Air Taman Sari",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Candi Prambanan",
+					"gambar" : "3.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Monumen Jogja Kembali",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Museum Keraton Yogyakarta",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pemakaman Imogiri",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+			
+		"35":
+		{
+			"nama": "Jawa Timur",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Gunung Bromo",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Tanjung Kodok",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pantai Pasir Putih",
+					"gambar" : "3.jpg",
+                    "harga" : "4.500.000"
+				},
+				{
+					"nama" : "Kebun Raya Purwodadi",
+					"gambar" : "",
+                    "harga" : "4.500.000"
+				},
+				{
+					"nama" : "Taman Safari Indonesia II",
+					"gambar" : "",
+                    "harga" : "4.500.000"
+				},
+				{
+					"nama" : "Taman Nasional Bromo Tengger Semeru",
+					"gambar" : "",
+                    "harga" : "4.500.000"
+				},
+				{
+					"nama" : "Danau Sarangan",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Candi Penataran",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Jatim Park",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+
+		"36":
+		{
+			"nama": "Banten",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Masjid Agung Banten",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pulau Umang",
+					"gambar" : "2.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Taman Nasional Ujung Kulon",
+					"gambar" : "3.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pulau Burung",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Gunung Krakatau",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Rawadano",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+
+		"51":
+		{
+			"nama": "Bali",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Tanah Lot",
+					"gambar" : "1.jpg",
+                    "harga" : "5.882.000"
+				},
+				{
+					"nama" : "Pura Besakih",
+					"gambar" : "2.jpg",
+                    "harga" : "10.000.000"
+				},
+				{
+					"nama" : "GWK (Garuda Wisnu Kencana)",
+					"gambar" : "3.jpg",
+                    "harga" : "10.980.000"
+				},
+				{
+					"nama" : "Pantai Kuta",
+					"gambar" : "",
+                    "harga" : "8.900.000"
+				},
+				{
+					"nama" : "Pantai Nusa Dua",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Istana Tapaksiring",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Pantai Sanur",
+					"gambar" : "",
+                    "harga" : "9.000.000"
+				},
+				{
+					"nama" : "Sukawati",
+					"gambar" : "",
+                    "harga" : "8.000.000"
+				},
+				{
+					"nama" : "Kintamani",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]},
+
+		"52":
+		{
+			"nama": "Nusa Tenggara Barat",
+			"objek_pariwisata":
+			[ 
+				{
+					"nama" : "Taman Mayura",
+					"gambar" : "1.jpg",
+                    "harga" : "1.650.000"
+				},
+				{
+					"nama" : "Gunung Rinjani",
+					"gambar" : "2.jpg",
+                    "harga" : "1.984.000"
+				},
+				{
+					"nama" : "Pantai Senggigi",
+					"gambar" : "3.jpg",
+                    "harga" : "7.989.000"
+				},
+				{
+					"nama" : "Gili Trawangan",
+					"gambar" : "",
+                    "harga" : "6.404.000"
+				},
+				{
+					"nama" : "Pulau Moyo",
+					"gambar" : "",
+                    "harga" : "6.895.000"
+				}
+			]},
+
+		"53":
+		{
+			"nama": "Nusa Tenggara Timur",
+			"objek_pariwisata":
+			[
+				{
+					"nama" : "Pantai Kolbano",
+					"gambar" : "1.jpg",
+                    "harga" : "1.000.000"
+				},
+				{
+					"nama" : "Danau Kelimutu",
+					"gambar" : "2.jpg",
+                    "harga" : "2.000.000"
+				},
+				{
+					"nama" : "Taman Laut Selat Pantar",
+					"gambar" : "3.jpg",
+                    "harga" : "2.500.000"
+				},
+				{
+					"nama" : "pulau komodo",
+					"gambar" : "",
+                    "harga" : "3.977.000"
+				},
+				{
+					"nama" : "museum bahari ende",
+					"gambar" : "",
+                    "harga" : "4.720.000"
+				},
+				{
+					"nama" : "Cagar Alam Gunung Mutise",
+					"gambar" : "",
+                    "harga" : "1.000.000"
+				}
+			]}
+	}
+}
