@@ -81,17 +81,17 @@
                    <form id="contactForm">
                      <div class="row">
                        <div class="col">
-                         <input type="text" class="form-control" placeholder="Enter your name..." name="name">
+                         <input type="text" id="name" class="form-control" placeholder="Enter your name..." name="name">
                        </div>
                        <div class="col">
-                         <input type="text" class="form-control" placeholder="Enter your email..." name="email">
+                         <input type="text" id="email" class="form-control" placeholder="Enter your email..." name="email">
                        </div>
                        <div class="col">
-                         <input type="text" class="form-control" placeholder="Enter your subject..." name="subject">
+                         <input type="text" id="subject" class="form-control" placeholder="Enter your subject..." name="subject">
                        </div>
                      </div>
                      <div class="mb-3 mt-3">
-                       <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Message..."></textarea>
+                       <textarea class="form-control" rows="5" id="message" name="text" placeholder="Message..."></textarea>
                      </div>
                      <button onclick="contact()" type="submit" class="btn text-light mb-3" style="background-color: #0c746a; justify-content: right;">Submit</button>
                    </form>
@@ -159,6 +159,6 @@
     <script>
         feather.replace()
     </script>
-    <script src="../assets/js/index.js"></script>
+    <script src="../assets/js/contact.js"></script>
 </body>
 </html>
