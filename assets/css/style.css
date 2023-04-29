@@ -146,14 +146,23 @@ body {
 }
 
 .modal-booking {
-  width: 350px;
+  width: 400px;
   position: absolute;
-  top: 50px;
+  top: auto;
   right: 100px;
 }
 
 .modal-header h1.modal-main {
   text-align: center !important;
+  padding: auto;
+  font-size: large;
+}
+
+.modal-wrap{
+  width: 300px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
 }
 
 #card-container {
@@ -262,4 +271,47 @@ li {
 th,
 td {
   border: 1px solid black;
+}
+
+.card-color-1 {
+  /* background-color: #ffcccc; */
+  border-left: 5px solid red;
+}
+
+.card-color-2 {
+  /* background-color: #ccffcc; */
+  border-left: 5px solid rgb(0, 128, 75);
+}
+
+.card-color-3 {
+  /* background-color: #ccccff; */
+  border-left: 5px solid rgb(82, 82, 236);
+}
+
+#update {
+  display: none;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+}
+
+.card-content img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+.card-text .p{
+    margin-top: 0;
 }
