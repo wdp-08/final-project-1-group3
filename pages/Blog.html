@@ -12,44 +12,59 @@
     <title>Blog | H3aling </title>
 </head>
 <body>
-<!-- navbar -->
-  <nav class="navbar navbar-expand-sm" style="background-color: #B9EDDD; z-index: 9999;">
-    <div class="container">
-    <img src="/assets/img/logo.png" alt="logo" style="width: 75px; height: 55px;">
+
+  <!-- section header navbar -->
+  <section class="header-top">
+    <div class="header-nav">
+        <div class="logo mx-auto">
+            <img src="/assets/img/logo.png" alt="logo" style="width: 95px; height: 55px;">
+        </div>
+        <div class="icon">
+            <ul class="icon-nav mx-auto mt-3">
+                <img src="/assets/img/ic-fb2.png" alt="logo" style="width: 30px; height: 30px; margin-right: 10px;">
+                <img src="/assets/img/ic-ig2.png" alt="logo" style="width: 30px; height: 30px; margin-right: 10px;">
+                <img src="/assets/img/ic-tw2.png" alt="logo" style="width: 30px; height: 30px; margin-right: 10px;">
+                <img src="/assets/img/ic-yt2.png" alt="logo" style="width: 30px; height: 30px; margin-right: 10px;">
+            </ul>
+        </div>
+        <form class="d-flex mx-auto" role="search">
+            <button type="button" class="btn btn-light me-2" style="font-size: small;">Login</button>
+            <button class="btn btn-info" type="submit" style="color: white; font-size: small;">Register</button>
+        </form>
+    </div>
+</section>
+
+<!-- navbar start -->
+<nav class="navbar navbar-expand-sm navbar-light">
+  <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
       </button>
-
-    <div class="collapse navbar-collapse justify-content-end fw-bold" id="collapsibleNavbar">
-      <ul class="navbar-nav">
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="/pages/home.html">HOME</a>
-        </li>
-
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="/pages/portofolio.html">OUR GALLERY</a>
-        </li>
-        
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="/pages/contact.html">CONTACT</a>
-        </li>  
-
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="/pages/About us.html">ABOUT US</a>
-        </li>    
-
-        <li class="nav-item mx-2">
-          <a class="nav-link" href="/pages/Blog.html">BLOG</a>
-        </li>   
-
-        <li class="nav-item mx-2 mt-1">
-          <a href="#" id="search"><i data-feather="search" style="color: rgb(42, 41, 41); padding-top: 2px;"></i></a>  
-        </li>  
-      </ul>
-    </div>
-    </div>
-  </nav>
-
+      <div class="collapse navbar-collapse justify-content-end fw-bold" id="collapsibleNavbar">
+          <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-2">
+                  <a class="nav-link active" href="/pages/home.html">HOME</a>
+              </li>
+              <li class="nav-item mx-2">
+                  <a class="nav-link" href="/pages/portofolio.html">OUR GALLERY</a>
+              </li>
+              <li class="nav-item mx-2">
+                  <a class="nav-link" href="/pages/contact.html">CONTACT</a>
+              </li>
+              <li class="nav-item mx-2">
+                  <a class="nav-link" href="/pages/About us.html">ABOUT US</a>
+              </li>
+              <li class="nav-item mx-2">
+                  <a class="nav-link" href= "/pages/Blog.html">BLOG</a>
+              </li>
+              <li class="nav-item mx-2 mt-1">
+                  <a href="#" id="search"><i data-feather="search"
+                          style="color: rgb(42, 41, 41); padding-top: 2px;"></i></a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
 
 <section class="container-fluid mt-3" id ="headerBlog">
 <div id="carouselExampleDark" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -280,9 +295,75 @@
     <div class="row row-cols-1 row-cols-md-3 g-3 mt-3">
       <div class="col">
       <div class="card text-bg-light">
-        <img src="/assets/img/muslim-travel.png" class="card-img" alt="..." width="200px" height="350px">
+        <img src="/assets/img/muslim-travel.png" class="card-img" alt="Mosque" width="200px" height="350px">
         <div class="card-img-overlay">
           <h5 class="card-title">Guide for Muslim Friendly Tourism Guide</h5>
+          <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#muslim">
+            Read More
+          </button>
+
+          <div class="modal fade" id="muslim" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Guide for Muslim Friendly Tourism Guide</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+              <div class="modal-body">
+                <p>
+                  <ol>
+                    <li>
+                      <img src ="/assets/img/muslim-traveler.png" width="200px" height="200px" style="display:block; margin:auto;">
+                      <h5 class="mt-5"></h5>
+                      <p>As a Muslim traveler, you need to plan in advance so that you are happy traveling, 
+                        from getting halal food to performing prayers in places where space is possible and different time zones.
+                        one of the beauties of Islam is the fact that it provides an alternative that facilitates all of our obligatory tasks. 
+                        Islam alleviates difficulties while safeguarding our well-being.
+                      </p>
+                    </li>
+                    <li>
+                      <p>Here are some helpful hacks we have prepared to ensure your trip : </p>
+                    </li>
+                    <li>
+                      <h5 class="mt-2">Prayer Guide When Traveling</h5>
+                      <p>whether we are moving or staying in a place, we must not miss our prayers.</p>
+                      <p>It is very important for you to plan and know when you will be traveling and prayer times during your trip to your destination. 
+                        Always plan your prayers in advance, especially when you have a long haul flight. 
+                        With planning, you can roughly prepare alternatives and ways to ease your prayer.</p>
+                      <p>For those who will be traveling by plane, it's time for you to use your cellphone to the fullest. 
+                        There are tons of mobile travel apps that can help you know when to pray by simply entering the time and place of your departure and destination.</p>
+                        <img src ="/assets/img/muslim-3.png" width="600px" height="300px" style="display:block; margin:auto;">
+                      <p class="mt-5">Some of these apps provide estimated prayer times depending on your departure and arrival times. 
+                        You can use the in-flight information screen to double-check the app-provided time.</p>
+                    </li>
+                    <li>
+                      <h5 class="mt-2">Looking for Halal Food</h5>
+                      <p>When you travel, always research Halal or Muslim-owned restaurants in the vicinity of the place you plan to visit or stay at. 
+                        However, when there are no Halal restaurants available in the area, certified non-Halal restaurants will be the next choice.</p>
+                      <p>You may consider the following tips:
+                        <ul>
+                          <li>Check if they have halal meat options</li>
+                          <li>Choose seafood or vegetarian/vegan options.</li>
+                          <li>Ask not to contain alcohol in the food you choose</li>
+                        </ul>
+                      In some countries, generally, they will be more than happy to share materials with you!</p>
+                    </li>
+                    <li>
+                      <h5 class="mt-2">Bathroom with water for ablution</h5>
+                      <p>Prayer will not be valid if the body is impure and unclean. 
+                        Therefore, a bathroom with water facilities for ablution is needed by Muslim travelers.</p>
+                      <p>Purifying water is also a matter of hygiene and cleanliness of the bathroom. 
+                        The lack of important facilities like this in tourist attractions is often complained of by Muslim travelers, 
+                        even though they are important and needed.</p>
+                    </li>
+                  </ol>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          </div>
+
         </div>
       </div>
     </div>
@@ -291,7 +372,67 @@
       <div class="card text-bg-light">
         <img src="/assets/img/Family.png" class="card-img" alt="..." width="200px" height="350px">
         <div class="card-img-overlay">
-          <h5 class="card-title">Guide to the Best Family-Friendly Destinations</h5>
+          <h2 class="card-title">Guide to the Best Family-Friendly Destinations</h2>
+
+          <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#family">
+            Read More
+          </button>
+
+          <div class="modal fade" id="family" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Guide to the Best Family-Friendly Destinations</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+              <div class="modal-body">
+                  <ol>
+                    <li>
+                      <img src="/assets/img/itenerary.png"  alt="..." width="500px" height="200px" style="display:block; margin:auto;">
+                      <h5 class="mt-5">Prepare a Family Friendly Itinerary</h5>
+                      <p>First, determine which city you are going on vacation to. 
+                        Then, ask your spouse and children what kind of tourist attractions they would like to visit. 
+                        In this case, you should know the various choices of tourist destinations that are child and family friendly. 
+                        Next, discuss and determine the choice of tourist attractions, and include them in the itinerary list.</p>
+                    </li>
+                    <li>
+                      <img src="/assets/img/happy fam.png"  alt="..." width="500px" height="200px" style="display:block; margin:auto;">
+                      <h5 class="mt-5">Prepare Traveling Needs</h5>
+                      <p>After determining where to go on vacation, then you can immediately prepare all the necessary needs. 
+                        This is important so that later you don't get too bothered when you arrive at the location of the tourist spot. 
+                        Moreover, if the intended destination is in an area that incidentally is less strategic.</p>
+                      <p>Before preparing everything, it is important for you to know the weather conditions in the main destination area. 
+                        The reason is, this will greatly affect the items that must be carried. 
+                        If the destination city is in the middle of the rainy season, 
+                        of course you have to prepare warm clothes, medicine, raincoats, umbrellas, and so on. 
+                        Likewise, if the area you are aiming for is in the middle of summer, 
+                        sunblock and rather light clothes must be brought.</p>
+                      <p>However, try not to carry too much stuff. 
+                        Apart from being a hassle, this will also be very burdensome in terms of baggage fees. 
+                        Bring sufficient items and pack as neatly as possible.</p>
+                    </li>
+                    <li>
+                      <img src="/assets/img/Transportasi.png"  alt="..." width="500px" height="200px" style="display:block; margin:auto;">
+                      <h5 class="mt-5">Choose Comfortable Transportation and Lodging</h5>
+                      <p>Planning a vacation with your family does require a lot of consideration, especially in terms of choosing transportation and lodging. 
+                        For transportation, you must decide whether to choose the type of transportation by private car, train or plane. 
+                        Each of course has its own advantages and disadvantages that you can adjust to the conditions.</p>
+                      <p>You should be able to choose a trusted travel service so that all travel matters can run easily, smoothly, and comfortably. 
+                        Therefore, you can take advantage of H3aling services for family-friendly intenaries 
+                        so that family travel is comfortable and safe.</p>
+                    </li>
+                    <li>
+                      <h5 class="mt-2">Bring your favorite snack</h5>
+                      <p>Generally, long trips will not only be boring but also invite hunger. 
+                        Therefore, it is important for you to bring food in the form of your favorite snacks or snacks. 
+                        For children, it can also be equipped with milk and favorite food.</p>
+                    </li>
+                  </ol>
+                
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
       </div>
     </div>
@@ -301,6 +442,50 @@
         <img src="/assets/img/referensipack.png" class="card-img" alt="..." width="200px" height="350px">
         <div class="card-img-overlay">
           <h5 class="card-title">Guide to Pack Traveling Goods</h5>
+
+          <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#pack">
+            Read More
+          </button>
+
+          <div class="modal fade" id="pack" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Guide to Pack Traveling Goods</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+              <div class="modal-body">
+                <p>
+                  <ol>
+                    <li>
+                      <img src ="/assets/img/muslim-traveler.png" width="200px" height="350px">
+                      <h5 class="mt-5"></h5>
+                      <p>As a Muslim traveler, you need to plan in advance so that you are happy traveling, 
+                        from getting halal food to performing prayers in places where space is possible and different time zones.</p>
+                    </li>
+                    <li>
+                      <h5 class="mt-2"></h5>
+                      <p></p>
+                    </li>
+                    <li>
+                      <h5 class="mt-2"></h5>
+                      <p></p>
+                    </li>
+                    <li>
+                      <h5 class="mt-2"></h5>
+                      <p></p>
+                    </li>
+                    <li>
+                      <h5 class="mt-2"></h5>
+                      <p></p>
+                    </li>
+                  </ol>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+          </div>
         </div>
       </div>
     </div>
