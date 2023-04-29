@@ -46,7 +46,6 @@ body {
   background-color: rgb(255, 255, 255, 0.5);
 }
 
-
 /* li a:hover{
     background-color: aqua;    
 } */
@@ -69,31 +68,30 @@ body {
 /*gheina*/
 
 .column {
-  float: left;
-  width: 30%;
-  margin-bottom: 10px;
-  padding: 0 8px;
-}
+    float: left;
+    width: 30%;
+    margin-bottom: 10px;
+    padding: 0 8px;
+  }
+  
+  .card {
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			overflow: hidden;
+			display: inline-block;
+      position: relative;
+  }
+  .card-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
 
-.card {
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  display: inline-block;
-  position: relative;
-}
-
-.card-title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.card-text {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
+  .card-text {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
 
   .card img {
     object-fit: cover;
@@ -113,123 +111,121 @@ body {
   color: white;
 }
 
-.d-block {
+.d-block{
   border-radius: 10px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   padding: 0px;
   overflow: hidden;
   position: relative;
 }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
   }
-}
 
 
 /* candra */
 .jumbotron-home {
-  background-image: url(/assets/img/header.jpg);
-  height: 600px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 0;
-  padding-top: 0;
-  position: relative;
+    background-image: url(/assets/img/header.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-.booking-btn {
-  margin-top: 3rem;
+.booking-btn{
+    margin-top: 3rem;
 }
 
 .modal-booking {
-  width: 350px;
-  position: absolute;
-  top: 50px;
-  right: 100px;
+    width: 350px;
+    position: absolute;
+    top: 50px; 
+    right: 100px; 
 }
 
 .modal-header h1.modal-main {
-  text-align: center !important;
-}
+    text-align: center !important;
+  }
 
 #card-container {
-  display: flex;
-  align-items: center;
-  height: 100%;
-  overflow: hidden;
-}
+    display: flex;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+} 
 
 .menu {
-  color: rgba(255, 255, 255, 0.986);
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  font-size: 60px;
+    color: rgba(255, 255, 255, 0.986);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 60px;
 }
 
 
 .text-wrap {
-  width: 200px;
-  display: flex;
-  flex-wrap: wrap;
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .text-deals {
-  width: 500px;
-  display: flex;
-  flex-wrap: wrap;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card-deals {
-  width: 250px;
-  margin-right: 50px;
-  transition: transform 0.3s ease-in-out;
+    width: 250px;
+    margin-right: 50px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .card-deals h5 {
-  color: white;
-  font-size: 30px;
-  font-weight: 600;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
 }
 
 .card-deals span {
-  color: white;
-  font-size: 12;
+    color: white;
+    font-size: 12;
 }
 
 .card-deals h6 {
-  color: white;
-  font-size: 25px;
-  font-weight: 600;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .card-deals .overlay {
-  background-color: rgba(0, 0, 0, 0);
-  opacity: 0;
-  transition: all ease-in-out .3s;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
 }
 
 .card-deals .overlay:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-  opacity: 1;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
 }
 
 .btn-left {
-  border: none;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: white;
 }
 
 .btn-right {
-  border: none;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  background-color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: white;
 }
 
 .daftar {
@@ -241,7 +237,7 @@ li {
   list-style-type: none;
 }
 
-.daftar ul li::before {
+.daftar ul li::before{
   content: "\2713";
   display: inline-block;
   width: 1em;
@@ -259,7 +255,6 @@ li {
   font-size: 13px;
 }
 
-th,
-td {
+th, td {
   border: 1px solid black;
 }
