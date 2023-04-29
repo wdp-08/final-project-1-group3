@@ -4,17 +4,46 @@ ul.topnav li a.active {background-color: #04AA6D;} */
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family :Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 body {
-    background-color: rgb(241, 244, 249);
-    color: black;
+  background-color: rgb(241, 244, 249);
+  color: black;
+}
+
+.header-top {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 75px;
+  background-color:  #B9EDDD;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar {
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  height: 50px;
+  z-index: 2;
+  backdrop-filter: blur(2px);
+  background-color: rgb(255, 255, 255, 0.5);
 }
 
 /* li a:hover{
@@ -22,63 +51,232 @@ body {
 } */
 
 .background-jumbotron {
-    background-image: url(img/1.jpg);
-    height: 300px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    box-shadow: inset 0 0 0 2000px rgba(36, 140, 149, 0.5);
+  background-image: url(../img/1.jpg);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  box-shadow: inset 0 0 0 2000px rgba(36, 140, 149, 0.5);
 }
 
 #tiles {
-    list-style-type: none;
+  list-style-type: none;
 }
+
+
+/*gheina*/
 
 .column {
     float: left;
     width: 30%;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     padding: 0 8px;
   }
   
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			overflow: hidden;
+			display: inline-block;
+      position: relative;
   }
-  
-  
-  .btn {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: #0c746a;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
+  .card-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
   }
-  
-  .btn:hover {
-    background-color: #555;
-  }
-  
 
-  #service {
-
-    background-color: #0c746a;
-    color: white;
-  
-
+  .card-text {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    font-size: 14px;
   }
+<<<<<<< HEAD
   #header-about {
     display: flex;
     padding: 0px;
   }
 
+=======
+
+  .card img {
+    object-fit: cover;
+    transition: transform 0.5s;
+  }
+
+  .card:hover img {
+    transform: scale(1.1);
+  }
+  
+ 
+ header {
+  background-image: url('/assets/img/header-about.png');
+  background-size: cover;
+  padding: 70px 0; 
+  margin: auto;
+  color: white;
+}
+
+.d-block{
+  border-radius: 10px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+}
+
+>>>>>>> ea137a4fc923ae3e6b4bf6a1f88fc9ea2add7d1d
   @media screen and (max-width: 650px) {
     .column {
       width: 100%;
       display: block;
     }
   }
+
+
+/* candra */
+.jumbotron-home {
+    background-image: url(/assets/img/header.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.booking-btn{
+    margin-top: 3rem;
+}
+
+.modal-booking {
+    width: 350px;
+    position: absolute;
+    top: 50px; 
+    right: 100px; 
+}
+
+.modal-header h1.modal-main {
+    text-align: center !important;
+  }
+
+#card-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+} 
+
+.menu {
+    color: rgba(255, 255, 255, 0.986);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 60px;
+}
+
+
+.text-wrap {
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-deals {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-deals {
+    width: 250px;
+    margin-right: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-deals h5 {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card-deals span {
+    color: white;
+    font-size: 12;
+}
+
+.card-deals h6 {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.card-deals .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-deals .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.btn-left {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+.btn-right {
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+}
+
+.daftar {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+li {
+  list-style-type: none;
+}
+
+.daftar ul li::before{
+  content: "\2713";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.daftar ul li {
+  font-weight: normal;
+}
+
+.btnPaket {
+  display: block;
+  width: 100%;
+  margin: auto;
+  font-size: 13px;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    display: block;
+  }
+}
