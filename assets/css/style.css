@@ -10,13 +10,23 @@ ul.topnav li a.active {background-color: #04AA6D;} */
   outline: none;
   border: none;
   text-decoration: none;
-  font-family :Arial, Helvetica, sans-serif;
-  font-size: 14px;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  min-height: 150px;
+  width: 100%;
+}
 body {
   background-color: rgb(241, 244, 249);
   color: black;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family :Arial, Helvetica, sans-serif;
 }
 
 .header-top {
@@ -78,7 +88,7 @@ body {
 			border-radius: 10px;
 			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 			overflow: hidden;
-			display: inline-block;
+			display: flex;
       position: relative;
   }
   .card-title {
@@ -92,13 +102,6 @@ body {
     margin-bottom: 15px;
     font-size: 14px;
   }
-<<<<<<< HEAD
-  #header-about {
-    display: flex;
-    padding: 0px;
-  }
-
-=======
 
   .card img {
     object-fit: cover;
@@ -126,13 +129,6 @@ body {
   position: relative;
 }
 
->>>>>>> ea137a4fc923ae3e6b4bf6a1f88fc9ea2add7d1d
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
 
 
 /* candra */
@@ -267,16 +263,35 @@ th, td {
   border: 1px solid black;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 800px) {
   .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .column {
     width: 100%;
     display: block;
+  }
+  body {
+    font-size: 14px;
+  }
+  img {
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .container {
-    width: 100%;
-    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
+  img {
+    max-width: 90%;
+  }
+  body {
+    font-size: 12px;
+  }
+
 }
