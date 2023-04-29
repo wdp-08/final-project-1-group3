@@ -75,21 +75,11 @@ body {
     transform: scale(1.1);
   }
   
-  #service {
-    background-color: #569daa;
-    color: white;
-  }
-
-  hr {
-    border: none;
-    border-top: 2px solid black;
-    
- }
  
  header {
   background-image: url('/assets/img/header-about.png');
   background-size: cover;
-  padding: 50px 0; 
+  padding: 70px 0; 
   margin: auto;
 }
 
