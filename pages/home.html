@@ -9,118 +9,190 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+    <script src="/assets/js/api.js"></script>
     <title>H3aling</title>
 </head>
 
 <body>
-   <!-- section header navbar -->
-   <section class="header-top">
-    <div class="header-nav">
-        <div class="logo mx-auto">
-            <img src="/assets/img/logo.png" alt="logo" style="width: 95px; height: 55px;">
+    <!-- section header navbar -->
+    <section class="header-top">
+        <div class="header-nav">
+            <div class="logo mx-auto">
+                <img src="/assets/img/logo.png" alt="logo" style="width: 95px; height: 55px;">
+            </div>
+            <div class="icon">
+                <ul class="icon-nav mx-auto mt-3">
+                    <img src="/assets/img/ic-fb2.png" alt="logo" style="width: 30px; height: 30px; margin-right: 10px;">
+                    <img src="/assets/img/ic-ig2.png" alt="logo" style="width: 30px; height: 30px; margin-right: 10px;">
+                    <img src="/assets/img/ic-tw2.png" alt="logo" style="width: 30px; height: 30px; margin-right: 10px;">
+                    <img src="/assets/img/ic-yt2.png" alt="logo" style="width: 30px; height: 30px; margin-right: 10px;">
+                </ul>
+            </div>
+            <form class="d-flex mx-auto" role="search">
+                <button type="button" class="btn btn-light me-2" style="font-size: small;">Login</button>
+                <button class="btn btn-info" type="submit" style="color: white; font-size: small;">Register</button>
+            </form>
         </div>
-        <div class="icon">
-            <ul class="icon-nav mx-auto mt-3">
-                <img src="/assets/img/ic-fb2.png" alt="logo" style="width: 30px; height: 30px; margin-right: 10px;">
-                <img src="/assets/img/ic-ig2.png" alt="logo" style="width: 30px; height: 30px; margin-right: 10px;">
-                <img src="/assets/img/ic-tw2.png" alt="logo" style="width: 30px; height: 30px; margin-right: 10px;">
-                <img src="/assets/img/ic-yt2.png" alt="logo" style="width: 30px; height: 30px; margin-right: 10px;">
-            </ul>
-        </div>
-        <form class="d-flex mx-auto" role="search">
-            <button type="button" class="btn btn-light me-2" style="font-size: small;">Login</button>
-            <button class="btn btn-info" type="submit" style="color: white; font-size: small;">Register</button>
-        </form>
-    </div>
-</section>
+    </section>
 
-<!-- navbar start -->
-<nav class="navbar navbar-expand-sm navbar-light">
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end fw-bold" id="collapsibleNavbar">
-            <ul class="navbar-nav mx-auto">
-                <li class="nav-item mx-2">
-                    <a class="nav-link active" href="home.html">HOME</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="portofolio.html">OUR GALLERY</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="contact.html">CONTACT</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="About us.html">ABOUT US</a>
-                </li>
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="Blog.html">BLOG</a>
-                </li>
-                <li class="nav-item mx-2 mt-1">
-                    <a href="#" id="search"><i data-feather="search"
-                            style="color: rgb(42, 41, 41); padding-top: 2px;"></i></a>
-                </li>
-            </ul>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end fw-bold" id="collapsibleNavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item mx-2">
+                        <a class="nav-link active" href="home.html">HOME</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="portofolio.html">OUR GALLERY</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="About us.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="Blog.html">BLOG</a>
+                    </li>
+                    <li class="nav-item mx-2 mt-1">
+                        <a href="#" id="search"><i data-feather="search"
+                                style="color: rgb(42, 41, 41); padding-top: 2px;"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
-<!-- main header-->
-<section id="jumbotron header" class="jumbotron-fluid jumbotron-home d-flex align-items-center mb-5">
-    <div class="container-fluid py-5 ms-3">
-        <h2 class="menu fw-bold">NEVER STOP</h2>
-        <h2 class="menu fw-bold">EXPLORING THE</h2>
-        <h2 class="menu fw-bold">WORD.</h2>
-        <button type="button" class="btn btn-light fw-bold booking-btn" data-bs-toggle="modal"
-            data-bs-target="#BookingModal">Booking Now</button>
-    </div>
-</section>
+    <!-- main header-->
+    <section id="jumbotron header" class="jumbotron-fluid jumbotron-home d-flex align-items-center mb-5">
+        <div class="container-fluid py-5 ms-3">
+            <h2 class="menu fw-bold">NEVER STOP</h2>
+            <h2 class="menu fw-bold">EXPLORING THE</h2>
+            <h2 class="menu fw-bold">WORD.</h2>
+            <button type="button" class="btn btn-light fw-bold booking-btn" data-bs-toggle="modal"
+                data-bs-target="#BookingModal">Booking Now</button>
+        </div>
+    </section>
 
     <!--Pop Up booking-->
     <div class="modal fade" id="BookingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-booking">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-main fs-5" id="exampleModalLabel">Choose Your Dream Tourism Destination!</h1>
+                    <h1 class="modal-main modal-wrap fs-5" id="exampleModalLabel">Choose Your Dream Tourism Destination!
+                    </h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                            <label for="tujuan-text" class="col-form-label">Destination :</label>
-                            <select type="text" class="form-control" id="tujuan"></select>
+                    <h5>Biodata</h5>
+                    <form action="#">
+                        <div class="row g-2">
+                            <div class="col-sm-6 mb-2">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Nama">
+                                    <label for="name">Full Name</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control" id="phone" placeholder="Telphone">
+                                    <label for="phone">Phone</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="input" class="form-control" id="email" placeholder="your Email">
+                                    <label for="email" class="col-form-label">Email</label>
+                                </div>
+                            </div>
                         </div>
-                        <div class="mb-3">
-                            <label for="berangkat-date" class="col-form-label">Departure Date :</label>
-                            <input type="date" class="form-control" id="date">
-                        </div>
-                        <div class="mb-3">
-                            <label for="jumlah-number" class="col-form-label">Participants :</label>
-                            <input type="number" class="form-control" id="Jumlah">
+                        <hr>
+                        <h5>Travel</h5>
+                        <div class="row g-2">
+                            <div class="col-sm-6 mb-2">
+                                <div class="form-floating">
+                                    <select class="form-select" id="provinsi-select">
+                                        <option value="">--Choose Province--</option>
+                                    </select>
+                                    <label for="kota-select">Province</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-2">
+                                <div class="form-floating">
+                                    <select class="form-select" id="tour-select">
+                                        <option value="">--Choose Tour--</option>
+                                    </select>
+                                    <label for="tour-select">Tour</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="date" class="form-control" id="date" placeholder="berangkat">
+                                    <label for="date">Departure TIme</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="number" class="form-control" id="parti" placeholder="jumlah">
+                                    <label for="parti">Participants</label>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
-                <div class="ms-3 mb-3">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">Total Price</h1>
+                <div class="ms-3 my-3 mt-5">
+                    <h6 class="modal-title" id="price">Harga</h6>
+                    <h6 class="modal-title" id="total-price">Total Harga</h6>
                 </div>
                 <div class="modal-footer" style="background-color: #748eb1;">
                     <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-warning">Booking</button>
+                    <button type="button" class="btn btn-warning" id="submit" onclick="AddData()">Booking</button>
+                    <button type="button" class="btn btn-primary" id="update" onclick="updateData()">Update</button>
                 </div>
             </div>
         </div>
     </div>
 
+    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight">Toggle right offcanvas</button>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header offcanvas-lg">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h1 class="text-center mb-5">Booking Result</h1>
+            <div class="row mt-5" id="cardContainer">
+                <!-- <div class="col-md-6">
+                            <div class="card me-3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Booking Information</h5>
+                                    <p class="card-text">Destination: <span id="destination"></span></p>
+                                    <p class="card-text">Date: <span id="date"></span></p>
+                                    <p class="card-text">Number of Participants: <span id="participants"></span></p>
+                                </div>
+                            </div>
+                        </div> -->
+            </div>
+        </div>
+
+    </div>
+
     <!-- section destination-->
     <section id="destination">
         <div class="container">
-            <div class="d-flex my-5 justify-content-center align-items-center">
+            <div class="lesson d-flex my-5 justify-content-center align-items-center">
                 <div class="text me-4">
                     <h2 class="display-9 text-uppercase mt-4 fw-bold mt-4">Destinations</h2>
                     <p class="text-wrap">We offer the perfect variety of experiences to satisfy anyone's desire for
                         adventure.</p>
-                    <div style="border-bottom: 6px solid #40e9b6 ; height: 2px; width: 70px; "></div>
+                    <div class="bordir" style="border-bottom: 6px solid #40e9b6 ; height: 2px; width: 70px; "></div>
                 </div>
                 <div class="ml-5 mx-2 position-relative">
                     <img src="/assets/img/beach.jpg" width="200px" height="300px"></a>
@@ -498,7 +570,8 @@
                                         aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
-                                    <div class="carouselDetailAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carouselDetailAutoplaying" class="carousel slide"
+                                        data-bs-ride="carousel">
                                         <div class="carousel-inner w-100">
                                             <div class="carousel-item active carousel-detail img-fluid me-3">
                                                 <img src="/assets/img/dt-toraja.jpg" class="d-block w-100" alt="...">
@@ -912,13 +985,13 @@
                                         <img src="/assets/img/dt-bromo2.jpg" class="d-block w-100" alt="...">
                                     </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselDetailAutoplaying"
-                                    data-bs-slide="prev">
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselDetailAutoplaying" data-bs-slide="prev">
                                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Previous</span>
                                 </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#carouselDetailAutoplaying"
-                                    data-bs-slide="next">
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselDetailAutoplaying" data-bs-slide="next">
                                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                                     <span class="visually-hidden">Next</span>
                                 </button>
@@ -1079,7 +1152,9 @@
             </div>
         </div>
     </footer>
+
 </body>
 <script src="/assets/js/index.js"></script>
+<script src="/assets/js/script.js"></script>
 
 </html>
