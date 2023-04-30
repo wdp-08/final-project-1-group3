@@ -32,18 +32,14 @@
                 </ul>
             </div>
             <form class="d-flex mx-auto" role="search">
-                <a href="/pages/login.html">
-                    <button id="loginBtn" type="button" class="btn btn-light me-2"
-                        style="font-size: small;">Login</button>
-                </a>
-                <a href="/pages/register.html">
-                    <button id="registerBtn" class="btn btn-info" type="button"
-                        style="color: white; font-size: small;">Register</button>
-                </a>
                 <li class="mx-2">
                     <a class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
                     aria-controls="offcanvasRight"><i class="fa fa-suitcase fa-lg" style="color: white"></i></a>
                 </li>
+                <a href="/pages/login.html">
+                    <button id="logoutBtn" type="button" class="btn btn-light me-2"
+                        style="font-size: small;">Logout</button>
+                </a>
             </form>
         </div>
     </section>
@@ -398,7 +394,7 @@
                                                 <td>IDR 1.500.000</td>
                                                 <TD>
                                                     <button type="button"
-                                                        class="btn btnPaket btn-warning btn-sm" id="BookBtn">Book</button>
+                                                        class="btn btnPaket btn-warning btn-sm BookBtn">Book</button>
                                                 </TD>
                                             </tr>
                                             <tr>
@@ -539,7 +535,7 @@
                                                 <td>IDR 1.400.000</td>
                                                 <TD>
                                                     <button type="button"
-                                                        class="btn btnPaket btn-warning btn-sm" id="BookBtn">Book</button>
+                                                        class="btn btnPaket btn-warning btn-sm BookBtn">Book</button>
                                                 </TD>
                                             </tr>
                                             <tr>
@@ -675,7 +671,7 @@
                                                 <td>IDR 2.200.000</td>
                                                 <TD>
                                                     <button type="submit"
-                                                        class="btn btnPaket btn-warning btn-sm" id="BookBtn">Book</button>
+                                                        class="btn btnPaket btn-warning btn-sm BookBtn">Book</button>
                                                 </TD>
                                             </tr>
                                             <tr>
@@ -806,7 +802,7 @@
                                                 <td>IDR 600.000</td>
                                                 <TD>
                                                     <button type="button"
-                                                        class="btn btnPaket btn-warning btn-sm" id="BookBtn">Book</button>
+                                                        class="btn btnPaket btn-warning btn-sm BookBtn">Book</button>
                                                 </TD>
                                             </tr>
                                             <tr>
@@ -945,7 +941,7 @@
                                                 <td>IDR 2.600.000</td>
                                                 <TD>
                                                     <button type="button"
-                                                        class="btn btnPaket btn-warning btn-sm" id="BookBtn">Book</button>
+                                                        class="btn btnPaket btn-warning btn-sm BookBtn">Book</button>
                                                 </TD>
                                             </tr>
                                             <tr>
@@ -1075,7 +1071,7 @@
                                         <td>2D1N</td>
                                         <td>IDR 700.000</td>
                                         <TD>
-                                            <button type="button" class="btn btnPaket btn-warning btn-sm" id="BookBtn">Book</button>
+                                            <button type="button" class="btn btnPaket btn-warning btn-sm BookBtn">Book</button>
                                         </TD>
                                     </tr>
                                     <tr>
@@ -1085,8 +1081,8 @@
                     </div>
                 </div>
             </div>
-
-            <button class="btn-left position-absolute start-0" onclick="prevCard()">
+            <!-- arrow -->
+            <button class="btn-left position-absolute m-2 start-0" onclick="prevCard()">
                 <img src="/assets/img/ab.png" width="20px" alt="">
             </button>
             <button class="btn-right position-absolute end-0" onclick="nextCard()">

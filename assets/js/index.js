@@ -5,7 +5,7 @@ const cards = cardContainer.querySelectorAll(".card-deals");
 const cardCount = cards.length;
 
 function nextCard() {
-    if (position < cardCount - 4) {
+    if (position < cardCount - 3) {
       position++;
       cards.forEach(card => {
         card.style.transform = `translateX(-${position * 270}px)`;
@@ -25,7 +25,7 @@ function nextCard() {
         card.style.transform = `translateX(-${position * 270}px)`;
       });
     } else {
-      position = cardCount - 4;
+      position = cardCount - 3;
       cards.forEach(card => {
         card.style.transform = `translateX(-${position * 270}px)`;
       });
@@ -36,10 +36,13 @@ function nextCard() {
 feather.replace()
 
 /* alert */
-document.getElementById("BookBtn").onclick = function() {
-  Swal.fire(
-    'Sorry..!',
-    'this feature is not yet available',
-    'info'
-  );
+let buttons = document.querySelectorAll('.BookBtn');
+for (let i = 0; i < buttons.length; i++) {
+    buttons[i].addEventListener('click', function() {
+        Swal.fire(
+            'Sorry..!',
+            'this feature is not yet available',
+            'info'
+        );
+    });
 }

@@ -84,7 +84,7 @@ function showData() {
         html += '</div>';
         html += '</div>';
         html += '<hr>';
-        html += '<h5 class="card-text fw-bold" style="font-size: 17px;">Departure TIme: ' + element.date + '</h5>';
+        html += '<h5 class="card-text fw-bold" style="font-size: 17px;">Departure Time: ' + element.date + '</h5>';
         html += '<p class="card-text" style="font-size: 14px;">' + element.tour + '</p>';
         html += '<p class="card-text" style="font-size: 14px;">' + element.parti + ' Ticket</p>';
         html += '<h5 class="card-text" style="font-size: 14px; color: green;">Price: ' + element.total + '</h5>';
