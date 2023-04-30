@@ -2,7 +2,7 @@
   "name": "final-project-1-group3",
   "version": "1.0.0",
   "description": "Website pariwisata",
-  "main": "index.js",
+  "main": "assets/js/login.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
