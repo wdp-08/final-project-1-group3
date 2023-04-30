@@ -1,0 +1,29 @@
+{
+  "name": "final-project-1-group3",
+  "version": "1.0.0",
+  "description": "Website pariwisata",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdp-08/final-project-1-group3.git"
+  },
+  "keywords": [
+    "website",
+    "pariwisata",
+    "tugas",
+    "akhir"
+  ],
+  "authors": [
+    "Candra Dermawansyah",
+    "Gheina Gemalia Thalita",
+    "Rifqiyah Ramadani"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wdp-08/final-project-1-group3/issues"
+  },
+  "homepage": "https://github.com/wdp-08/final-project-1-group3#readme"
+}
