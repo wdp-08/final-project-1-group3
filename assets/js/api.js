@@ -7,7 +7,7 @@ fetch('/assets/js/db.json')
         const hargaDisplay = document.getElementById('price');
         const totalDisplay = document.getElementById('total-price');
 
-        // Tambahkan option untuk setiap objek provinsi
+        // menambahkan option untuk setiap objek provinsi
         for (const idProvinsi in data.provinsi) {
             const provinsi = data.provinsi[idProvinsi];
             const option = document.createElement('option');
@@ -26,7 +26,7 @@ fetch('/assets/js/db.json')
         
                 selectTujuan.innerHTML = '';
         
-                // Tambahkan option untuk setiap objek pariwisata di provinsi yang dipilih
+                // menambahkan option untuk setiap objek pariwisata di provinsi yang dipilih
                 objekPariwisata.forEach(objek => {
                     const option = document.createElement('option');
                     option.value = objek.nama;

@@ -120,14 +120,6 @@ header {
   position: relative;
 }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-
 /* candra */
 .jumbotron-home {
   background-image: url(/assets/img/header.jpg);
@@ -180,6 +172,13 @@ header {
   width: 200px;
   display: flex;
   flex-wrap: wrap;
+}
+
+.text-wrap3 {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 17px;
 }
 
 .text-deals {
@@ -271,11 +270,11 @@ td {
 }
 
 @media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
 
-  /* .container {
-    flex-direction: column;
-    align-items: center;
-  } */
   .column {
     width: 100%;
     display: block;
@@ -306,16 +305,22 @@ td {
     margin: auto;
     margin-bottom: 15px;
   }
+
+  .text-wrap3 {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+  }
+
+  .text-deals{
+    width: auto;
+    display: flex;
+  }
+
 }
 
-@media screen and (max-width: 670px) {
-
-  /* .container {
-    width: 100%;
-  } */
-  /* img {
-    width: auto;
-  } */
+@media screen and (max-width: 620px) {
   body {
     font-size: 12px;
   }
@@ -336,9 +341,26 @@ td {
 
   .bordir {
     height: 2px; 
-    width: 70px; 
+    width: 70px;
+    margin-bottom: 15px;
     margin: auto;
   }
+
+  .text-wrap3 {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+  }
+
+}
+
+@media screen and (max-width: 480px){
+  .navbar-collapse {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+  }
+
 }
 
 .card-color-1 {
