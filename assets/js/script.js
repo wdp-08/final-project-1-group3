@@ -136,13 +136,14 @@ function AddData(index) {
             total: total
         });
 
+        localStorage.setItem("peopleList", JSON.stringify(peopleList));
+
         Swal.fire(
             'Thank You',
             'Succesfully Booked',
             'success'
         );
 
-        localStorage.setItem("peopleList", JSON.stringify(peopleList));
         showData();
         document.getElementById("name").value = "";
         document.getElementById("phone").value = "";
@@ -151,6 +152,7 @@ function AddData(index) {
         document.getElementById("tour-select").value = "";
         document.getElementById("date").value = "";
         document.getElementById("parti").value = "";
+        document.getElementById("price").value = "";
         document.getElementById("total-price").value = "";
     }
 }
@@ -252,6 +254,7 @@ document.querySelector("#cancel").onclick = function () {
     document.getElementById("tour-select").value = "";
     document.getElementById("date").value = "";
     document.getElementById("parti").value = "";
+    document.getElementById("price").value = "";
     document.getElementById("total-price").value = "";
 
     document.getElementById("submit").style.display = "block";
