@@ -268,19 +268,37 @@ th, td {
   border: 1px solid black;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .column {
     width: 100%;
     display: block;
+  }
+  body {
+    font-size: 14px;
+  }
+  img {
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 480px) {
   .container {
     width: 100%;
-    display: block;
+    
   }
+  img {
+    width: auto;
+  }
+  body {
+    font-size: 12px;
+  }
+
 }
+
 
 .card-color-1 {
   /* background-color: #ffcccc; */
