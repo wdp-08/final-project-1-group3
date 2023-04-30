@@ -34,3 +34,12 @@ function nextCard() {
   
 /* icon search */
 feather.replace()
+
+/* alert */
+document.getElementById("BookBtn").onclick = function() {
+  Swal.fire(
+    'Sorry..!',
+    'this feature is not yet available',
+    'info'
+  );
+}
