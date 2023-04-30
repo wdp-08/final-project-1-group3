@@ -8,9 +8,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://unpkg.com/feather-icons"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/responsive.css">
     <script src="/assets/js/api.js"></script>
+    <script src="/assets/js/login.js"></script>
+
+
     <title>H3aling</title>
 </head>
 
@@ -30,8 +35,19 @@
                 </ul>
             </div>
             <form class="d-flex mx-auto" role="search">
-                <button type="button" class="btn btn-light me-2" style="font-size: small;">Login</button>
-                <button class="btn btn-info" type="submit" style="color: white; font-size: small;">Register</button>
+                <a href="/pages/login.html">
+                    <button id="loginBtn" type="button" class="btn btn-light me-2"
+                        style="font-size: small;">Login</button>
+                </a>
+                <a href="/pages/register.html">
+                    <button id="registerBtn" class="btn btn-info" type="submit"
+                        style="color: white; font-size: small;">Register</button>
+                </a>
+                <li class="mx-2">
+                    <a class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight"><i class="fa fa-suitcase fa-lg" style="color: white"></i></a>
+                </li>
+                <button id="logoutBtn" style="display: none;">Logout</button>
             </form>
         </div>
     </section>
@@ -104,7 +120,7 @@
                                     <label for="phone">Phone</label>
                                 </div>
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm">
                                 <div class="form-floating">
                                     <input type="input" class="form-control" id="email" placeholder="your Email">
                                     <label for="email" class="col-form-label">Email</label>
@@ -119,7 +135,7 @@
                                     <select class="form-select" id="provinsi-select">
                                         <option value="">--Choose Province--</option>
                                     </select>
-                                    <label for="kota-select">Province</label>
+                                    <label for="provinsi-select">Province</label>
                                 </div>
                             </div>
                             <div class="col-sm-6 mb-2">
@@ -138,19 +154,24 @@
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-floating">
-                                    <input type="number" class="form-control" id="parti" placeholder="jumlah">
+                                    <input type="number" class="form-control" id="parti" placeholder="jumlah" min="0">
                                     <label for="parti">Participants</label>
                                 </div>
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="ms-3 my-3 mt-5">
-                    <h6 class="modal-title" id="price">Harga</h6>
-                    <h6 class="modal-title" id="total-price">Total Harga</h6>
+                <div class="ms-3 mt-5">
+                    <label for="price">Price:</label>
+                    <input type="text" id="price" name="price">
                 </div>
+                <div class="ms-3 mt-1 mb-3">
+                    <label for="total-price">Total Price:</label>
+                    <input type="text" id="total-price" name="total-price" readonly>
+                </div>
+
                 <div class="modal-footer" style="background-color: #748eb1;">
-                    <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-light" data-bs-dismiss="modal" id="cancel">Close</button>
                     <button type="button" class="btn btn-warning" id="submit" onclick="AddData()">Booking</button>
                     <button type="button" class="btn btn-primary" id="update" onclick="updateData()">Update</button>
                 </div>
@@ -158,27 +179,14 @@
         </div>
     </div>
 
-    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-        aria-controls="offcanvasRight">Toggle right offcanvas</button>
-
+    <!-- sider -->
     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-        <div class="offcanvas-header offcanvas-lg">
-            <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+        <div class="offcanvas-header offcanvas-lg" style="background-color: blue;">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel">Order History</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <h1 class="text-center mb-5">Booking Result</h1>
-            <div class="row mt-5" id="cardContainer">
-                <!-- <div class="col-md-6">
-                            <div class="card me-3">
-                                <div class="card-body">
-                                    <h5 class="card-title">Booking Information</h5>
-                                    <p class="card-text">Destination: <span id="destination"></span></p>
-                                    <p class="card-text">Date: <span id="date"></span></p>
-                                    <p class="card-text">Number of Participants: <span id="participants"></span></p>
-                                </div>
-                            </div>
-                        </div> -->
+            <div class="row mt-2 mx-auto" id="cardContainer">
             </div>
         </div>
 
@@ -1152,7 +1160,6 @@
             </div>
         </div>
     </footer>
-
 </body>
 <script src="/assets/js/index.js"></script>
 <script src="/assets/js/script.js"></script>

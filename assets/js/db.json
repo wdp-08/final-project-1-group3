@@ -1,6 +1,5 @@
 {
-	"provinsi": [
-	{
+	"provinsi": {
 		"11":
 		{
 			"nama": "Aceh",
@@ -9,27 +8,27 @@
 				{
 					"nama" : "Masjid Raya Baiturrahman",
 					"gambar" : "1.jpg",
-                    "harga" : 1700000
+                    "harga" : 700000
 				},
 				{
 					"nama" : "Danau Laut Tawar",
 					"gambar" : "2.jpg",
-                    "harga" : 2700000
+                    "harga" : 900000
 				},
 				{
 					"nama" : "Benteng Indra Patra",
 					"gambar" : "3.jpg",
-                    "harga" : 13700000
+                    "harga" : 700000
 				},
 				{
 					"nama" : "Taman Laut Sabang",
 					"gambar" : "",
-                    "harga" : 4906000
+                    "harga" : 906000
 				},
 				{
 					"nama" : "Taman Buru Lingge Isaq",
 					"gambar" : "",
-                    "harga" : 4967000
+                    "harga" : 490000
 				},
 				{
 					"nama" : "Hutan Wisata Gunung Leuser",
@@ -44,7 +43,7 @@
 				{
 					"nama" : "Taman Putroe Phang",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Kuburan Kerkhoff Peucut",
@@ -54,7 +53,7 @@
 				{
 					"nama" : "Pantai Iboh",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 1200000
 				},
 				{
 					"nama" : "Situs Kerajaan Pasai",
@@ -70,28 +69,28 @@
 				{
 					"nama" : "Danau Toba",
 					"gambar" : "1.jpg",
-                    "harga" : 2000000
+                    "harga" : 200000
 
 				},
 				{
 					"nama" : "Nias",
 					"gambar" : "2.jpg",
-                    "harga" : 1000000
+                    "harga" : 1600000
 				},
 				{
 					"nama" : "Sibolangit",
 					"gambar" : "3.jpg",
-                    "harga" : 1500000
+                    "harga" : 150000
 				},
 				{
 					"nama" : "Pulau Samosir",
 					"gambar" : "",
-                    "harga" : 1955000
+                    "harga" : 195500
 				},
 				{
 					"nama" : "Brastagi",
 					"gambar" : "",
-                    "harga" : 1090000
+                    "harga" : 109000
 				}
 			]},
 		"13":
@@ -102,22 +101,22 @@
 				{
 					"nama" : "Danau Singkarak",
 					"gambar" : "1.jpg",
-                    "harga" : 3070000
+                    "harga" : 307000
 				},
 				{
 					"nama" : "Ngarai Sianok",
 					"gambar" : "2.jpg",
-                    "harga" : 2550000
+                    "harga" : 255000
 				},
 				{
 					"nama" : "Jam Gadang",
 					"gambar" : "3.jpg",
-                    "harga" : 3000000
+                    "harga" : 300000
 				},
 				 {
 					"nama" : "Danau Talang",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Danau Diatas dan Danau Dibawah",
@@ -148,27 +147,27 @@
 				{
 					"nama" : "Masjid Raya Pekanbaru",
 					"gambar" : "2.jpg",
-                    "harga" : 3000000
+                    "harga" : 300000
 				},
 				{
 					"nama" : "istana Siak",
 					"gambar" : "3.jpg",
-                    "harga" : 4000000
+                    "harga" : 400000
 				},
 				{
 					"nama" : "pulau jemur",
 					"gambar" : "",
-                    "harga" : 5000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "taman nasional bukit tiga puluh",
 					"gambar" : "",
-                    "harga" : 6000000
+                    "harga" : 600000
 				},
 				{
 					"nama" : "benteng tujuh lapis",
 					"gambar" : "",
-                    "harga" : 7000000
+                    "harga" : 700000
 				}
 			]},
 
@@ -180,17 +179,17 @@
 				{
 					"nama" : "Candi Muaro Jambi",
 					"gambar" : "1.jpg",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Danau Kerinci",
 					"gambar" : "2.jpg",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Taman Mini Jambi & Taman Rimba",
 					"gambar" : "3.jpg",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Tanggo Rajo",
@@ -210,7 +209,7 @@
 				{
 					"nama" : "Danau Teluk",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 1200000
 				}
 			]},
 			
@@ -264,17 +263,17 @@
 				{
 					"nama" : "danau Tes",
 					"gambar" : "3.jpg",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Elephant Training Center (ETC) di Seblat",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Rumah Pengasingan Bung Karno",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Air Terjun Kepala Curup",
@@ -289,7 +288,7 @@
 				{
 					"nama" : "Taman Wisata Konak",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 500000
 				}
 			]},
 
@@ -328,17 +327,17 @@
 				{
 					"nama" : "Pantai Parai Tenggiri",
 					"gambar" : "1.jpg",
-                    "harga" : 1000000
+                    "harga" : 1200000
 				},
 				{
 					"nama" : "Pantai Matras",
 					"gambar" : "2.jpg",
-                    "harga" : 1000000
+                    "harga" : 1200000
 				},
 				{
 					"nama" : "Pulau Lengkuas",
 					"gambar" : "3.jpg",
-                    "harga" : 1000000
+                    "harga" : 1400000
 				},
 				{
 					"nama" : "Pantai Tanjung Pesona",
@@ -375,7 +374,7 @@
 				{
 					"nama" : "Pantai Melur",
 					"gambar" : "1.jpg",
-                    "harga" : 1000000
+                    "harga" : 1200000
 				},
 				{
 					"nama" : "Pantai Lagoi",
@@ -400,12 +399,12 @@
 				{
 					"nama" : "Pantai Tanjung Berakit dan Bintan Leisure Park di kabupaten Bintan",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 1200000
 				},
 				{
 					"nama" : "Kabupaten Natuna",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 500000
 				}
 			]},
 
@@ -454,42 +453,42 @@
 				{
 					"nama" : "Waduk Cirata",
 					"gambar" : "1.jpg",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Kawah Putih",
 					"gambar" : "2.jpg",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Observatorium Bosscha",
 					"gambar" : "3.jpg",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Puncak-Kabupaten Bogor",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Kebun Raya Cibodas",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Taman Bunga Nusantara",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Taman Wisata Gunung Gede Pangrango",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Keraton Kasepuhan Cirebon",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 500000
 				}
 			]
         },
@@ -581,27 +580,27 @@
 				{
 					"nama" : "Pantai Pasir Putih",
 					"gambar" : "3.jpg",
-                    "harga" : 4500000
+                    "harga" : 700000
 				},
 				{
 					"nama" : "Kebun Raya Purwodadi",
 					"gambar" : "",
-                    "harga" : 4500000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Taman Safari Indonesia II",
 					"gambar" : "",
-                    "harga" : 4500000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Taman Nasional Bromo Tengger Semeru",
 					"gambar" : "",
-                    "harga" : 4500000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Danau Sarangan",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 1200000
 				},
 				{
 					"nama" : "Candi Penataran",
@@ -623,27 +622,27 @@
 				{
 					"nama" : "Masjid Agung Banten",
 					"gambar" : "1.jpg",
-                    "harga" : 1000000
+                    "harga" : 200000
 				},
 				{
 					"nama" : "Pulau Umang",
 					"gambar" : "2.jpg",
-                    "harga" : 1000000
+                    "harga" : 1200000
 				},
 				{
 					"nama" : "Taman Nasional Ujung Kulon",
 					"gambar" : "3.jpg",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Pulau Burung",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 1200000
 				},
 				{
 					"nama" : "Gunung Krakatau",
 					"gambar" : "",
-                    "harga" : 1000000
+                    "harga" : 500000
 				},
 				{
 					"nama" : "Rawadano",
@@ -665,12 +664,12 @@
 				{
 					"nama" : "Pura Besakih",
 					"gambar" : "2.jpg",
-                    "harga" : 10000000
+                    "harga" : 1200000
 				},
 				{
 					"nama" : "GWK (Garuda Wisnu Kencana)",
 					"gambar" : "3.jpg",
-                    "harga" : 10980000
+                    "harga" : 1098000
 				},
 				{
 					"nama" : "Pantai Kuta",
@@ -727,12 +726,12 @@
 				{
 					"nama" : "Gili Trawangan",
 					"gambar" : "",
-                    "harga" : 6404000
+                    "harga" : 4000000
 				},
 				{
 					"nama" : "Pulau Moyo",
 					"gambar" : "",
-                    "harga" : 6895000
+                    "harga" : 4200000
 				}
 			]},
 
@@ -773,6 +772,4 @@
 				}
 			]}
 	}
-]
 }
-
