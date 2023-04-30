@@ -29,8 +29,7 @@ login.onclick = (e) => {
 
             setTimeout(()=>{
                 location.href='home.html';
-                },1000);
-               
+                },1000)
         }else
         {
             Swal.fire(
