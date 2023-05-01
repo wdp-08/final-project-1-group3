@@ -1,36 +1,34 @@
 /* efek collorosel */
-let position = 0;
-const cardContainer = document.getElementById("card-container");
-const cards = cardContainer.querySelectorAll(".card-deals");
-const cardCount = cards.length;
-
-function nextCard() {
-    if (position < cardCount - 3) {
-      position++;
-      cards.forEach(card => {
-        card.style.transform = `translateX(-${position * 270}px)`;
-      });
-    } else {
-      position = 0;
-      cards.forEach(card => {
-        card.style.transform = `translateX(0)`;
-      });
-    }
-  }
-  
-  function prevCard() {
-    if (position > 0) {
-      position--;
-      cards.forEach(card => {
-        card.style.transform = `translateX(-${position * 270}px)`;
-      });
-    } else {
-      position = cardCount - 3;
-      cards.forEach(card => {
-        card.style.transform = `translateX(-${position * 270}px)`;
-      });
-    }
-  }
+let swiper = new Swiper(".swiper-container", {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        1200: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+        991: {
+          slidesPerView: 3,
+          spaceBetween: 0,
+        },
+        576: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+        0: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        }
+      },
+});
   
 /* icon search */
 feather.replace()
