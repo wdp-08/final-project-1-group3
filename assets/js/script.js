@@ -115,6 +115,7 @@ function AddData(index) {
         let tour = document.getElementById("tour-select").value;
         let date = document.getElementById("date").value;
         let parti = document.getElementById("parti").value;
+        let price = document.getElementById("price").value;
         let total = document.getElementById("total-price").value;
 
 
@@ -133,6 +134,7 @@ function AddData(index) {
             tour: tour,
             date: date,
             parti: parti,
+            price: price,
             total: total
         });
 
@@ -202,7 +204,9 @@ function updateData(index) {
     document.getElementById("tour-select").value = peopleList[index].tour;
     document.getElementById("date").value = peopleList[index].date;
     document.getElementById("parti").value = peopleList[index].parti;
+    document.getElementById("price").value = peopleList[index].price;
     document.getElementById("total-price").value = peopleList[index].total;
+
 
     // Tampilkan pop up dialog
     let updateDialog = new bootstrap.Modal(document.getElementById("BookingModal"));
@@ -217,6 +221,7 @@ function updateData(index) {
             peopleList[index].tour = document.getElementById("tour-select").value;
             peopleList[index].date = document.getElementById("date").value;
             peopleList[index].parti = document.getElementById("parti").value;
+            peopleList[index].price = document.getElementById("price").value;
             peopleList[index].total = document.getElementById("total-price").value;
 
             localStorage.setItem("peopleList", JSON.stringify(peopleList));
@@ -229,6 +234,8 @@ function updateData(index) {
             document.getElementById("tour-select").value = "";
             document.getElementById("date").value = "";
             document.getElementById("parti").value = "";
+            document.getElementById("price").value = "";
+            document.getElementById("total-price").value = "";
 
             Swal.fire(
                 'Appointment',
