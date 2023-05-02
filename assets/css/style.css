@@ -332,6 +332,7 @@ td {
 .text-intro {
   font-size: 12px;
   margin-left: 10px;
+  margin-right: 5px;
   visibility: hidden;
   opacity: 0;
 }
@@ -458,7 +459,7 @@ td {
   }
 
   .image:hover .intro {
-    height: 100px;
+    height: 85px;
   }
 
   .footer .row {
