@@ -318,6 +318,38 @@ td {
   margin-left: 5rem;
 }
 
+.intro {
+  height: 31px;
+  background: rgb(27, 27, 27, 0.5);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  z-index: 2;
+  transition: transform 0.3s ease;
+}
+
+.text-intro {
+  font-size: 12px;
+  margin-left: 10px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+.image:hover .intro {
+  height: 90px;
+  bottom: 0px;
+  background: rgb(27, 27, 27, 2);
+}
+
+.image:hover .text-intro {
+  opacity: 1;
+  visibility: visible;
+}
 
 @media screen and (max-width: 1200px) {
   .column {
@@ -336,14 +368,6 @@ td {
 
   img {
     max-width: 100%;
-  }
-
-  .lesson {
-    flex-direction: column;
-    text-align: center;
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(2, 1fr);
   }
 
   .ml-5 {
@@ -373,6 +397,10 @@ td {
     height: 100%;
   }
 
+  .image:hover .intro {
+    height: 100px;
+  }
+
   .f-travel {
     margin-left: 15px;
   }
@@ -395,12 +423,48 @@ td {
     width: 100%;
     margin-top: 20px;
   }
+
+  .text-intro {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .image:hover .intro {
+    height: 150px;
+  }
 }
 
 @media screen and (max-width: 780px) {
   .swiper-container {
     width: 95%;
     height: 100%;
+  }
+
+  .text-intro {
+    font-size: 10px;
+    margin: auto;
+  }
+
+  .image:hover .intro {
+    height: 100px;
+  }
+
+  .lesson {
+    flex-direction: column;
+    text-align: center;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+  }
+
+  .text-intro {
+    margin: auto;
+  }
+
+  .image:hover .intro {
+    height: 100px;
   }
 
   .footer .row {
@@ -551,39 +615,6 @@ td {
 .carousel-item-next.carousel-item-left,
 .carousel-item-prev.carousel-item-right {
   position: absolute;
-}
-
-.intro {
-  height: 35px;
-  background: rgb(27, 27, 27, 0.5);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  color: white;
-  z-index: 2;
-  transition: transform 0.3s ease;
-}
-
-.text-intro {
-  font-size: 12px;
-  margin-left: 10px;
-  visibility: hidden;
-  opacity: 0;
-}
-
-.image:hover {
-  cursor: pointer;
-}
-
-.image:hover .intro {
-  height: 100px;
-  bottom: 0px;
-  background: rgb(27, 27, 27, 2);
-}
-
-.image:hover .text-intro {
-  opacity: 1;
-  visibility: visible;
 }
 
 .footer {
