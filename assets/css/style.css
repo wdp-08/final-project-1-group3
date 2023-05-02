@@ -375,11 +375,6 @@ td {
     width: fit-content;
   }
 
-  .bordir {
-    margin: auto;
-    margin-bottom: 15px;
-  }
-
   .text-wrap3 {
     width: auto;
     display: flex;
@@ -441,7 +436,6 @@ td {
   }
 
   .text-intro {
-    font-size: 10px;
     margin: auto;
   }
 
